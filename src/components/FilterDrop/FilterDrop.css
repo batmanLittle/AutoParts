@@ -4,9 +4,6 @@
     gap: 1rem; */
   position: relative;
   width: max-content;
-
-  @media (max-width: 48rem) {
-  }
 }
 
 .filter-drop__opt {
@@ -20,11 +17,6 @@
   gap: 1.2rem;
   border-radius: 100px;
   border: 1px solid #121212;
-  @media (max-width: 48rem) {
-    height: 6rem;
-    min-width: 33.6rem;
-    gap: 0.6rem;
-  }
 }
 
 .filter-drop .txt-sans16 {
@@ -34,10 +26,6 @@
 .filter-drop__opt-icon img {
   width: 2rem;
   height: 2rem;
-  @media (max-width: 48rem) {
-    width: 4rem;
-    height: 4rem;
-  }
 }
 
 .filter-drop__filter {
@@ -51,10 +39,6 @@
   align-items: center;
   position: absolute;
   width: 100%;
-  @media (max-width: 48rem) {
-    padding: 1.6rem 2.1rem;
-    top: 7rem;
-  }
 }
 
 .filter-drop__opt-icon.open img {
@@ -65,4 +49,28 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+
+@media (max-width: 48rem) {
+  .filter-drop__opt {
+    height: 6rem;
+    min-width: 33.6rem;
+    gap: 0.6rem;
+  }
+
+  .filter-drop__opt-icon img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .filter-drop__filter {
+    padding: 1.6rem 2.1rem;
+    top: 7rem;
+  }
+
+  .filter-drop__filter-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
 }

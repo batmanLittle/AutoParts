@@ -1,18 +1,11 @@
 .nav-menu {
   margin-top: 2.4rem;
   width: 100%;
-  @media (max-width: 48rem) {
-    margin-top: 7.2rem;
-  }
 }
 
 .nav-menu__c {
   display: flex;
   gap: 0.6rem;
-  @media (max-width: 48rem) {
-    flex-wrap: wrap;
-    gap: 1.2rem;
-  }
 }
 
 .nav-menu__c .txt-sans14 {
@@ -21,4 +14,15 @@
 
 .nav-menu__c .txt-sans14.active {
   color: #121212;
+}
+
+@media (max-width: 48rem) {
+  .nav-menu {
+    margin-top: 7.2rem;
+  }
+
+  .nav-menu__c {
+    flex-wrap: wrap;
+    gap: 1.2rem;
+  }
 }

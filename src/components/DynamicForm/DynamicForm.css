@@ -9,8 +9,6 @@
   justify-content: center;
   background: rgba(51, 51, 51, 0.6);
   z-index: 22;
-  @media (max-width: 48rem) {
-  }
 }
 
 .dynamic-form__wrapper {
@@ -27,29 +25,17 @@
   max-width: 64rem;
   border-radius: 16px;
   margin: auto;
-  @media (max-width: 48rem) {
-    padding: 6rem 7.6rem;
-    max-width: 66rem;
-  }
 }
 
 .dynamic-form__c-close {
   position: absolute;
   right: 2rem;
   top: 2rem;
-  @media (max-width: 48rem) {
-    right: 3.8rem;
-    top: 3.8rem;
-  }
 }
 
 .dynamic-form__c-close img {
   width: 2.4rem;
   height: 2.4rem;
-  @media (max-width: 48rem) {
-    width: 3.2rem;
-    height: 3.2rem;
-  }
 }
 
 .dynamic-form__block {
@@ -57,10 +43,6 @@
   flex-direction: column;
   gap: 4.5rem;
   align-items: center;
-  @media (max-width: 48rem) {
-    gap: 6rem;
-    width: 100%;
-  }
 }
 
 .dynamic-form__box {
@@ -68,23 +50,12 @@
   flex-direction: column;
   align-items: center;
   gap: 4rem;
-  @media (max-width: 48rem) {
-    gap: 6rem;
-    width: 100%;
-  }
 }
 
 .dynamic-form__inputs {
   display: flex;
   flex-direction: column;
   gap: 2.1rem;
-  @media (max-width: 48rem) {
-    gap: 4.2rem;
-    width: 100%;
-  }
-}
-
-.dynamic-form__label {
 }
 
 .dynamic-form__input {
@@ -95,11 +66,6 @@
   padding: 0rem 2rem;
   width: 34.4rem;
   height: 5.8rem;
-  @media (max-width: 48rem) {
-    padding: 0rem 4rem;
-    width: 100%;
-    height: 8rem;
-  }
 }
 
 .dynamic-form__input::placeholder {
@@ -109,9 +75,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 2.3rem;
-  }
 }
 
 .dynamic-form__btm {
@@ -142,4 +105,46 @@
 
 .center-button {
   margin: auto;
+}
+
+@media (max-width: 48rem) {
+  .dynamic-form__c {
+    padding: 6rem 7.6rem;
+    max-width: 66rem;
+  }
+
+  .dynamic-form__c-close {
+    right: 3.8rem;
+    top: 3.8rem;
+  }
+
+  .dynamic-form__c-close img {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  .dynamic-form__block {
+    gap: 6rem;
+    width: 100%;
+  }
+
+  .dynamic-form__box {
+    gap: 6rem;
+    width: 100%;
+  }
+
+  .dynamic-form__inputs {
+    gap: 4.2rem;
+    width: 100%;
+  }
+
+  .dynamic-form__input {
+    padding: 0rem 4rem;
+    width: 100%;
+    height: 8rem;
+  }
+
+  .dynamic-form__input::placeholder {
+    font-size: 2.3rem;
+  }
 }

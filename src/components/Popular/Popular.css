@@ -3,19 +3,12 @@
   max-width: 192rem;
   width: 100%;
   position: relative;
-
-  @media (max-width: 48rem) {
-    margin-top: 10rem;
-  }
 }
 
 .popular__c {
   display: flex;
   flex-direction: column;
   gap: 5rem;
-  @media (max-width: 48rem) {
-    gap: 4rem;
-  }
 }
 
 .popular__c-top {
@@ -26,15 +19,27 @@
 
 .popular-swiper {
   height: 46.8rem;
-  @media (max-width: 48rem) {
-    height: 54rem;
-  }
 }
 
 .popular-swiper__c {
   position: absolute;
   width: calc(100% - 10rem);
-  @media (max-width: 48rem) {
+}
+
+@media (max-width: 48rem) {
+  .popular {
+    margin-top: 10rem;
+  }
+
+  .popular__c {
+    gap: 4rem;
+  }
+
+  .popular-swiper {
+    height: 54rem;
+  }
+
+  .popular-swiper__c {
     width: calc(100% - 4.4rem);
   }
 }

@@ -89,3 +89,38 @@
 .brands__c-btn.open img {
   transform: rotate(180deg);
 }
+
+@media (max-width: 48rem) {
+  .brands__c {
+    gap: 3rem;
+    margin-top: 4rem;
+  }
+
+  .brands__c-box {
+    gap: 4rem;
+  }
+
+  .brands__c-list {
+    gap: 2rem;
+  }
+
+  .brands__c-item {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10px;
+  }
+
+  .brands__c-item img {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .brands__c-btn {
+    gap: 1rem;
+  }
+
+  .brands__c-btn img {
+    width: 5rem;
+    height: 6.2rem;
+  }
+}

@@ -10,10 +10,6 @@
   font-size: 2rem;
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 2.4rem;
-    line-height: 140%;
-  }
 }
 
 .txt-sans20_bold {
@@ -21,9 +17,6 @@
   font-size: 2rem;
   font-weight: 700;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 2.8rem;
-  }
 }
 
 .txt-sans64 {
@@ -31,9 +24,6 @@
   font-size: 6.4rem;
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 4rem;
-  }
 }
 
 .txt-rubik16 {
@@ -41,9 +31,6 @@
   font-size: 1.6rem;
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 2.4rem;
-  }
 }
 
 .txt-sans42_bold {
@@ -51,9 +38,6 @@
   font-size: 4.2rem;
   font-weight: 700;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 2.4rem;
-  }
 }
 
 .txt-sans16 {
@@ -61,9 +45,6 @@
   font-size: 1.6rem;
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 2.4rem;
-  }
 }
 
 .txt-sans16_bold {
@@ -72,9 +53,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 2.2rem;
-  }
 }
 
 .txt-sans60 {
@@ -82,9 +60,6 @@
   font-size: 6rem;
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 3.6rem;
-  }
 }
 
 .txt-sans30_bold {
@@ -92,9 +67,6 @@
   font-size: 3rem;
   font-weight: 700;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 2.6rem;
-  }
 }
 
 .txt-sans18_bold {
@@ -102,9 +74,6 @@
   font-family: "Sansation", sans-serif;
   font-weight: 700;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 2.4rem;
-  }
 }
 
 .txt-sans18 {
@@ -112,10 +81,6 @@
   font-size: 1.8rem;
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 2.4rem;
-    line-height: 110.336%;
-  }
 }
 
 .txt-sans24 {
@@ -123,9 +88,6 @@
   font-size: 2.4rem;
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 2.6rem;
-  }
 }
 
 .txt-sans42 {
@@ -133,9 +95,6 @@
   font-size: 4.2rem;
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 3.2rem;
-  }
 }
 
 .txt-sans32 {
@@ -143,28 +102,86 @@
   font-size: 3.2rem;
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 3.2rem;
-  }
 }
 
 .txt-sans14 {
   font-family: "Sansation", sans-serif;
   font-size: 1.4rem;
-
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 2.6rem;
-  }
 }
+
 .txt-sans48 {
   font-family: "Sansation", sans-serif;
   font-size: 4.8rem;
-
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
+}
+
+@media (max-width: 48rem) {
+  .txt-sans20 {
+    font-size: 2.4rem;
+    line-height: 140%;
+  }
+
+  .txt-sans20_bold {
+    font-size: 2.8rem;
+  }
+
+  .txt-sans64 {
+    font-size: 4rem;
+  }
+
+  .txt-rubik16 {
+    font-size: 2.4rem;
+  }
+
+  .txt-sans42_bold {
+    font-size: 2.4rem;
+  }
+
+  .txt-sans16 {
+    font-size: 2.4rem;
+  }
+
+  .txt-sans16_bold {
+    font-size: 2.2rem;
+  }
+
+  .txt-sans60 {
+    font-size: 3.6rem;
+  }
+
+  .txt-sans30_bold {
+    font-size: 2.6rem;
+  }
+
+  .txt-sans18_bold {
+    font-size: 2.4rem;
+  }
+
+  .txt-sans18 {
+    font-size: 2.4rem;
+    line-height: 110.336%;
+  }
+
+  .txt-sans24 {
+    font-size: 2.6rem;
+  }
+
+  .txt-sans42 {
+    font-size: 3.2rem;
+  }
+
+  .txt-sans32 {
+    font-size: 3.2rem;
+  }
+
+  .txt-sans14 {
+    font-size: 2.6rem;
+  }
+
+  .txt-sans48 {
     font-size: 2.8rem;
   }
 }

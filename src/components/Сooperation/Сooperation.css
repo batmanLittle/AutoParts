@@ -1,17 +1,11 @@
 .cooperation {
   margin-top: 8rem;
-  @media (max-width: 48rem) {
-    margin-top: 7.2rem;
-  }
 }
 
 .cooperation__c {
   display: flex;
   flex-direction: column;
   gap: 8rem;
-  @media (max-width: 48rem) {
-    gap: 6rem;
-  }
 }
 
 .cooperation__c-top {
@@ -19,9 +13,6 @@
   flex-direction: column;
   gap: 2.4rem;
   max-width: 114rem;
-  @media (max-width: 48rem) {
-    gap: 1.4rem;
-  }
 }
 
 .cooperation__c-top .txt-sans32 {
@@ -32,9 +23,6 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  @media (max-width: 48rem) {
-    gap: 4rem;
-  }
 }
 
 .cooperation__list {
@@ -42,9 +30,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 4rem;
-  @media (max-width: 48rem) {
-    row-gap: 2.2rem;
-  }
 }
 
 .cooperation__item {
@@ -58,14 +43,6 @@
   justify-content: center;
   padding: 0rem 2.3rem;
   gap: 2.4rem;
-  @media (max-width: 48rem) {
-    border-radius: 4rem;
-    justify-content: start;
-    width: 100%;
-    height: max-content;
-    padding: 2rem 2rem;
-    gap: 1rem;
-  }
 }
 
 .cooperation__item-top {
@@ -73,62 +50,34 @@
   width: 100%;
   align-items: center;
   gap: 1.4rem;
-  @media (max-width: 48rem) {
-    gap: 3rem;
-  }
 }
 
 .cooperation__item-top img {
   max-width: 6.4rem;
   height: 4.6rem;
-  @media (max-width: 48rem) {
-    max-width: 5rem;
-    height: 4rem;
-  }
-}
-.cooperation__item-top .txt-sans32 {
-  @media (max-width: 48rem) {
-    font-size: 2.4rem;
-  }
 }
 
 .cooperation__item .txt-sans24 {
   text-align: center;
   color: #3e4250;
-  @media (max-width: 48rem) {
-    font-size: 2.2rem;
-    text-align: start;
-  }
-}
-
-.cooperation__c-btm {
 }
 
 .cooperation__form {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  @media (max-width: 48rem) {
-    gap: 3rem;
-  }
 }
 
 .cooperation__form-box {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  @media (max-width: 48rem) {
-    gap: 2rem;
-  }
 }
 
 .cooperation__inputs {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  @media (max-width: 48rem) {
-    gap: 1.4rem;
-  }
 }
 
 .cooperation__label {
@@ -142,9 +91,6 @@
   font-family: "Sansation", sans-serif;
   font-weight: 400;
   line-height: normal;
-  @media (max-width: 48rem) {
-    font-size: 1.4rem;
-  }
 }
 
 .cooperation__input {
@@ -155,10 +101,6 @@
   display: flex;
   align-items: center;
   padding: 0rem 3.6rem;
-  @media (max-width: 48rem) {
-    width: 100%;
-    height: 7.8rem;
-  }
 }
 
 .cooperation__input::placeholder {
@@ -167,4 +109,74 @@
 
 .cooperation__form-box {
   color: rgba(105, 110, 118, 0.6);
+}
+
+@media (max-width: 48rem) {
+  .cooperation {
+    margin-top: 7.2rem;
+  }
+
+  .cooperation__c {
+    gap: 6rem;
+  }
+
+  .cooperation__c-top {
+    gap: 1.4rem;
+  }
+
+  .cooperation__c-center {
+    gap: 4rem;
+  }
+
+  .cooperation__list {
+    row-gap: 2.2rem;
+  }
+
+  .cooperation__item {
+    border-radius: 4rem;
+    justify-content: start;
+    width: 100%;
+    height: max-content;
+    padding: 2rem 2rem;
+    gap: 1rem;
+  }
+
+  .cooperation__item-top {
+    gap: 3rem;
+  }
+
+  .cooperation__item-top img {
+    max-width: 5rem;
+    height: 4rem;
+  }
+
+  .cooperation__item-top .txt-sans32 {
+    font-size: 2.4rem;
+  }
+
+  .cooperation__item .txt-sans24 {
+    font-size: 2.2rem;
+    text-align: start;
+  }
+
+  .cooperation__form {
+    gap: 3rem;
+  }
+
+  .cooperation__form-box {
+    gap: 2rem;
+  }
+
+  .cooperation__inputs {
+    gap: 1.4rem;
+  }
+
+  .cooperation__label .error-message {
+    font-size: 1.4rem;
+  }
+
+  .cooperation__input {
+    width: 100%;
+    height: 7.8rem;
+  }
 }

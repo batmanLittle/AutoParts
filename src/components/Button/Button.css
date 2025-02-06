@@ -7,11 +7,6 @@
   height: 5.6rem;
   padding: 0rem 0.8rem 0rem 2.4rem;
   width: max-content;
-  @media (max-width: 48rem) {
-    gap: 1rem;
-    height: 6rem;
-    padding: 0rem 1rem 0rem 2rem;
-  }
 }
 
 .btn .txt-rubik16 {
@@ -22,7 +17,16 @@
 .btn-icon img {
   width: 6rem;
   height: 4rem;
-  @media (max-width: 48rem) {
+}
+
+@media (max-width: 48rem) {
+  .btn {
+    gap: 1rem;
+    height: 6rem;
+    padding: 0rem 1rem 0rem 2rem;
+  }
+
+  .btn-icon img {
     width: 6rem;
     height: 4rem;
   }
