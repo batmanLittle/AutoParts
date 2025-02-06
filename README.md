@@ -14,4 +14,4 @@
 
 ## Ccылки
 
-- [Ссылка на проект](https://batmanlittle.github.io/auto-parts/) - ссылка фронтенд.
+- [Ссылка на проект](https://batmanlittle.github.io/AutoParts/) - ссылка фронтенд.
