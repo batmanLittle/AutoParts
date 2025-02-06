@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AutoParts/static/css/main.f989f438.css",
+    "main.css": "/AutoParts/static/css/main.cc1edd73.css",
     "main.js": "/AutoParts/static/js/main.2befc88b.js",
     "static/media/image-about.png": "/AutoParts/static/media/image-about.90418f50a35c6a096e3d.png",
     "static/media/back-promo.png": "/AutoParts/static/media/back-promo.0a3c3048a2c17759dfda.png",
@@ -90,11 +90,11 @@
     "static/media/icon-arrow-down.svg": "/AutoParts/static/media/icon-arrow-down.99ad360ad124b2111b30a1d1764ed932.svg",
     "static/media/icon-arr-gray.svg": "/AutoParts/static/media/icon-arr-gray.598a3ff2811a06f80c3cd02ab389ebd3.svg",
     "static/media/icon-arrow-rght-blue.svg": "/AutoParts/static/media/icon-arrow-rght-blue.3e40680d91946db2560d6b8997071011.svg",
-    "main.f989f438.css.map": "/AutoParts/static/css/main.f989f438.css.map",
+    "main.cc1edd73.css.map": "/AutoParts/static/css/main.cc1edd73.css.map",
     "main.2befc88b.js.map": "/AutoParts/static/js/main.2befc88b.js.map"
   },
   "entrypoints": [
-    "static/css/main.f989f438.css",
+    "static/css/main.cc1edd73.css",
     "static/js/main.2befc88b.js"
   ]
 }
