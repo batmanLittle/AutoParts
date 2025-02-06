@@ -1,0 +1,29 @@
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  border-radius: 100px;
+  background-color: #1a5fbc;
+  height: 5.6rem;
+  padding: 0rem 0.8rem 0rem 2.4rem;
+  width: max-content;
+  @media (max-width: 48rem) {
+    gap: 1rem;
+    height: 6rem;
+    padding: 0rem 1rem 0rem 2rem;
+  }
+}
+
+.btn .txt-rubik16 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn-icon img {
+  width: 6rem;
+  height: 4rem;
+  @media (max-width: 48rem) {
+    width: 6rem;
+    height: 4rem;
+  }
+}

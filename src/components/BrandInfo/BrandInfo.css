@@ -1,0 +1,133 @@
+.brand-info {
+  margin-top: 18rem;
+  @media (max-width: 48rem) {
+    margin-top: 10rem;
+  }
+}
+
+.brand-info__c {
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+  align-items: center;
+  @media (max-width: 48rem) {
+    gap: 10rem;
+  }
+}
+
+.brand-info__c-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  align-items: center;
+  max-width: 116.8rem;
+  @media (max-width: 48rem) {
+    max-width: 100%;
+    gap: 4rem;
+  }
+}
+
+.brand-info__c-box p {
+  text-align: center;
+}
+
+.brand-info__c-box .txt-sans20 {
+  line-height: 140%;
+  max-width: 103rem;
+  @media (max-width: 48rem) {
+    max-width: 100%;
+  }
+}
+
+.brand-info__c-box .txt-sans60 {
+  @media (max-width: 48rem) {
+    max-width: 65.8rem;
+  }
+}
+
+.brand-info__c-mob-divider {
+  display: none;
+  @media (max-width: 48rem) {
+    display: flex;
+    width: 32rem;
+    height: 0.3rem;
+    background-color: #1a5fbc;
+  }
+}
+
+.brand-info__c-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 153.4rem;
+  @media (max-width: 48rem) {
+    max-width: 60.6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    column-gap: 3rem;
+  }
+}
+
+.brand-info__c-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+  width: 36.4rem;
+  @media (max-width: 48rem) {
+    gap: 2rem;
+    width: 28.8rem;
+  }
+}
+
+.brand-info__c-item-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.7rem;
+  @media (max-width: 48rem) {
+    gap: 4rem;
+  }
+}
+
+.brand-info__c-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1000px;
+  background: #d8e0e9;
+  width: 11rem;
+  height: 11rem;
+  @media (max-width: 48rem) {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
+.brand-info__c-icon img {
+  width: 5rem;
+  height: 5rem;
+  @media (max-width: 48rem) {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+.brand-info__c-item-divider {
+  width: 8rem;
+  height: 0.3rem;
+  background-color: #1a5fbc;
+  @media (max-width: 48rem) {
+    width: 16rem;
+    height: 0.3rem;
+  }
+}
+
+.brand-info__c-item-btm .txt-sans20 {
+  width: 30rem;
+  color: #727272;
+  text-align: center;
+  @media (max-width: 48rem) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Sankofa Display", sans-serif;
+  src: url("./SankofaDisplay-Regular.woff2") format("woff2"),
+    url("./SankofaDisplay-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: Sansation;
+  src: url("./sansationregular.woff2") format("woff2"),
+    url("./sansationregular.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: Sansation;
+  src: url("./sansationbold.woff2") format("woff2"),
+    url("./sansationbold.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: Rubik;
+  src: url("./Rubik-Regular.woff2") format("woff2"),
+    url("./Rubik-Regular.woff") format("woff");
+}

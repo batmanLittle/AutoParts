@@ -1,0 +1,145 @@
+.dynamic-form {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(51, 51, 51, 0.6);
+  z-index: 22;
+  @media (max-width: 48rem) {
+  }
+}
+
+.dynamic-form__wrapper {
+  width: 100%;
+}
+
+.dynamic-form__c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7rem 8rem;
+  position: relative;
+  background-color: white;
+  max-width: 64rem;
+  border-radius: 16px;
+  margin: auto;
+  @media (max-width: 48rem) {
+    padding: 6rem 7.6rem;
+    max-width: 66rem;
+  }
+}
+
+.dynamic-form__c-close {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  @media (max-width: 48rem) {
+    right: 3.8rem;
+    top: 3.8rem;
+  }
+}
+
+.dynamic-form__c-close img {
+  width: 2.4rem;
+  height: 2.4rem;
+  @media (max-width: 48rem) {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+}
+
+.dynamic-form__block {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  align-items: center;
+  @media (max-width: 48rem) {
+    gap: 6rem;
+    width: 100%;
+  }
+}
+
+.dynamic-form__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  @media (max-width: 48rem) {
+    gap: 6rem;
+    width: 100%;
+  }
+}
+
+.dynamic-form__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 2.1rem;
+  @media (max-width: 48rem) {
+    gap: 4.2rem;
+    width: 100%;
+  }
+}
+
+.dynamic-form__label {
+}
+
+.dynamic-form__input {
+  border-radius: 6px;
+  border: 1px solid #eef2f6;
+  display: flex;
+  align-items: center;
+  padding: 0rem 2rem;
+  width: 34.4rem;
+  height: 5.8rem;
+  @media (max-width: 48rem) {
+    padding: 0rem 4rem;
+    width: 100%;
+    height: 8rem;
+  }
+}
+
+.dynamic-form__input::placeholder {
+  color: #b8b8b8;
+  font-family: "Sansation", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  @media (max-width: 48rem) {
+    font-size: 2.3rem;
+  }
+}
+
+.dynamic-form__btm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.txt-sans18_bold.blue {
+  color: #1a5fbc;
+}
+
+.dynamic-form__label {
+  position: relative;
+}
+
+.dynamic-form__label .error-message {
+  color: red;
+  position: absolute;
+  top: 105%;
+  left: 0;
+  font-size: 1.2rem;
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.center-button {
+  margin: auto;
+}
