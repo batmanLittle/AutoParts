@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AutoParts/static/css/main.cc1edd73.css",
-    "main.js": "/AutoParts/static/js/main.2befc88b.js",
+    "main.js": "/AutoParts/static/js/main.c7c0b3f0.js",
     "static/media/image-about.png": "/AutoParts/static/media/image-about.90418f50a35c6a096e3d.png",
     "static/media/back-promo.png": "/AutoParts/static/media/back-promo.0a3c3048a2c17759dfda.png",
     "static/media/hatchback_front.png": "/AutoParts/static/media/hatchback_front.69f332b78ecfa102c982.png",
@@ -91,10 +91,10 @@
     "static/media/icon-arr-gray.svg": "/AutoParts/static/media/icon-arr-gray.598a3ff2811a06f80c3cd02ab389ebd3.svg",
     "static/media/icon-arrow-rght-blue.svg": "/AutoParts/static/media/icon-arrow-rght-blue.3e40680d91946db2560d6b8997071011.svg",
     "main.cc1edd73.css.map": "/AutoParts/static/css/main.cc1edd73.css.map",
-    "main.2befc88b.js.map": "/AutoParts/static/js/main.2befc88b.js.map"
+    "main.c7c0b3f0.js.map": "/AutoParts/static/js/main.c7c0b3f0.js.map"
   },
   "entrypoints": [
     "static/css/main.cc1edd73.css",
-    "static/js/main.2befc88b.js"
+    "static/js/main.c7c0b3f0.js"
   ]
 }
