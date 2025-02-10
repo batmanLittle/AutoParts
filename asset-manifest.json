@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AutoParts/static/css/main.cc1edd73.css",
-    "main.js": "/AutoParts/static/js/main.c7c0b3f0.js",
+    "main.css": "/AutoParts/static/css/main.a49077c8.css",
+    "main.js": "/AutoParts/static/js/main.5cad6e9a.js",
     "static/media/image-about.png": "/AutoParts/static/media/image-about.90418f50a35c6a096e3d.png",
     "static/media/back-promo.png": "/AutoParts/static/media/back-promo.0a3c3048a2c17759dfda.png",
     "static/media/hatchback_front.png": "/AutoParts/static/media/hatchback_front.69f332b78ecfa102c982.png",
@@ -34,18 +34,13 @@
     "static/media/call-centr.png": "/AutoParts/static/media/call-centr.f541631e2ae4ae7deeb7.png",
     "static/media/categ-hood.png": "/AutoParts/static/media/categ-hood.b6a6147706a00f896117.png",
     "static/media/categ-side-sill.png": "/AutoParts/static/media/categ-side-sill.36354302c390a19a1235.png",
-    "static/media/icon-logo.svg": "/AutoParts/static/media/icon-logo.9d25330a63434a873a734a1b9613031e.svg",
     "static/media/categ-bump-grilles.png": "/AutoParts/static/media/categ-bump-grilles.6893b4e6e0b5280e91f9.png",
     "static/media/categ-wheel-arches.png": "/AutoParts/static/media/categ-wheel-arches.78a52d66cd91092966d8.png",
     "static/media/categ-subframes.png": "/AutoParts/static/media/categ-subframes.ea9bfda1b7627d972bde.png",
     "static/media/categ-door.png": "/AutoParts/static/media/categ-door.8f318103210fa61fa97e.png",
-    "static/media/icon-reno.svg": "/AutoParts/static/media/icon-reno.fe346c10f7196d9ed4abad6b0c2493e9.svg",
     "static/media/categ-fender.png": "/AutoParts/static/media/categ-fender.26fde662ebc4b07290d6.png",
-    "static/media/icon-merc.svg": "/AutoParts/static/media/icon-merc.9f0aa62096e3e7d6c4f30d583312fe51.svg",
-    "static/media/icon-toyota.svg": "/AutoParts/static/media/icon-toyota.59e6488348c682045b22176e12b3bfa6.svg",
-    "static/media/icon-shkoda.svg": "/AutoParts/static/media/icon-shkoda.f44dbcaf2bf549f5e8a206c2423907da.svg",
+    "static/media/icon-logo.png": "/AutoParts/static/media/icon-logo.d83c0f7c6773dd1dadbe.png",
     "static/media/categ-bumpers.png": "/AutoParts/static/media/categ-bumpers.29d60de7f6341a6717a2.png",
-    "static/media/icon-bmw.svg": "/AutoParts/static/media/icon-bmw.1d6bada4048d83833a0e7fd872fab26b.svg",
     "static/media/icon-saving.svg": "/AutoParts/static/media/icon-saving.215f13e060b4a46b53685b528a8d3c4e.svg",
     "static/media/icon-consultation.svg": "/AutoParts/static/media/icon-consultation.dc8b5b811ffbdf805daa103ce5ee7508.svg",
     "static/media/icon-select.svg": "/AutoParts/static/media/icon-select.19b16474614a1c6d8e403d9bea9ac91d.svg",
@@ -53,20 +48,15 @@
     "static/media/icon-delevery-black.svg": "/AutoParts/static/media/icon-delevery-black.cec0e561e2407e11822f7184f2faf260.svg",
     "static/media/sansationbold.woff": "/AutoParts/static/media/sansationbold.ac57ea8c1287c40d29d6.woff",
     "static/media/sansationregular.woff": "/AutoParts/static/media/sansationregular.94902eef61974ae34b00.woff",
-    "static/media/icon-hyundai.svg": "/AutoParts/static/media/icon-hyundai.76bc5004a8e6571621485568e11e0c09.svg",
-    "static/media/icon-ford.svg": "/AutoParts/static/media/icon-ford.d39ae13f6ac5a9f33c0f5bf54f1eb77e.svg",
     "static/media/logo-request.svg": "/AutoParts/static/media/logo-request.799ee9089f821703fa1e79259efd5d8b.svg",
     "static/media/sansationbold.woff2": "/AutoParts/static/media/sansationbold.9958504b2c75146a5080.woff2",
     "static/media/sansationregular.woff2": "/AutoParts/static/media/sansationregular.660f272e710930cc3677.woff2",
-    "static/media/icon-audi.svg": "/AutoParts/static/media/icon-audi.d0a25e82b5669dc5e9b713f7d1d398d4.svg",
-    "static/media/icon-nissan.svg": "/AutoParts/static/media/icon-nissan.9b5790db219c2946b2295e94fbe1a6e5.svg",
-    "static/media/icon-opel.svg": "/AutoParts/static/media/icon-opel.7a067274eb56e654e588235959f04de8.svg",
+    "static/media/icon-bmw.png": "/AutoParts/static/media/icon-bmw.918e92559c3926f10eb6.png",
+    "static/media/icon-shkoda.png": "/AutoParts/static/media/icon-shkoda.e51a9a88c5ea94278775.png",
     "static/media/icon-rating.svg": "/AutoParts/static/media/icon-rating.783a7f3d48aa790fd92fe3df38d93957.svg",
-    "static/media/icon-mitsub.svg": "/AutoParts/static/media/icon-mitsub.144912f282f96bfd8edfa66f1a5f8309.svg",
     "static/media/icon-delivery.svg": "/AutoParts/static/media/icon-delivery.7605b3de4d78bfca82ab4e6c09d4c148.svg",
     "static/media/icon-discount.svg": "/AutoParts/static/media/icon-discount.4e20b10c8c193e65052a8de9f8031217.svg",
     "static/media/icon-youtube.svg": "/AutoParts/static/media/icon-youtube.05b6dab1a13a3b1e837143ce6e3fa46e.svg",
-    "static/media/icon-chevrolet.svg": "/AutoParts/static/media/icon-chevrolet.446084f134b7d7c0e78cf5c3e7d5ccbf.svg",
     "static/media/icon-vk.svg": "/AutoParts/static/media/icon-vk.ad1c3daa22c5273d72f35e53b2637ad5.svg",
     "static/media/icon-document.svg": "/AutoParts/static/media/icon-document.c3043821e5b01918bd82a407e9149956.svg",
     "static/media/icon-basket-grey.svg": "/AutoParts/static/media/icon-basket-grey.f33b1191a72638280dc1a2ca94c1ca55.svg",
@@ -90,11 +80,11 @@
     "static/media/icon-arrow-down.svg": "/AutoParts/static/media/icon-arrow-down.99ad360ad124b2111b30a1d1764ed932.svg",
     "static/media/icon-arr-gray.svg": "/AutoParts/static/media/icon-arr-gray.598a3ff2811a06f80c3cd02ab389ebd3.svg",
     "static/media/icon-arrow-rght-blue.svg": "/AutoParts/static/media/icon-arrow-rght-blue.3e40680d91946db2560d6b8997071011.svg",
-    "main.cc1edd73.css.map": "/AutoParts/static/css/main.cc1edd73.css.map",
-    "main.c7c0b3f0.js.map": "/AutoParts/static/js/main.c7c0b3f0.js.map"
+    "main.a49077c8.css.map": "/AutoParts/static/css/main.a49077c8.css.map",
+    "main.5cad6e9a.js.map": "/AutoParts/static/js/main.5cad6e9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc1edd73.css",
-    "static/js/main.c7c0b3f0.js"
+    "static/css/main.a49077c8.css",
+    "static/js/main.5cad6e9a.js"
   ]
 }
