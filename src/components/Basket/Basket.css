@@ -320,7 +320,7 @@
 
   .basket__opt-counter p {
     font-size: 4rem;
-    height: 5.6rem;
+    height: 100%;
   }
 
   .basket__opts-price {
