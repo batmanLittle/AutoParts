@@ -63,6 +63,24 @@ function CatalogMenu({ handleClose }) {
     };
   }, [handleClose]);
 
+  useEffect(() => {
+    const categoryLinks = document.querySelectorAll(
+      ".catalog-menu__category-list li"
+    );
+
+    categoryLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        window.scrollTo(0, 0);
+      });
+    });
+
+    return () => {
+      categoryLinks.forEach((link) => {
+        link.removeEventListener("click", () => {});
+      });
+    };
+  }, []);
+
   return (
     <div className="catalog-menu" ref={menuRef}>
       <div className="container">

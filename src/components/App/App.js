@@ -32,11 +32,10 @@ function App() {
   };
 
   useEffect(() => {
-    const links = document.querySelectorAll('a[href^="/"]'); // выбираем все ссылки внутри сайта
+    const links = document.querySelectorAll('a[href^="/"]');
 
     links.forEach((link) => {
       link.addEventListener("click", () => {
-        // window.scrollTo({ top: 0, behavior: "smooth" });
         window.scrollTo(0, 0);
       });
     });
