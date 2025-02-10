@@ -34,7 +34,6 @@ function CatalogMenu({ handleClose }) {
     navigate(`/category/${category}`);
   };
 
-  // Функция для переключения отображения всех элементов
   const toggleShowAll = (category) => {
     setShowAll((prevState) => ({
       ...prevState,
