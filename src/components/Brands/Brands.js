@@ -23,6 +23,7 @@ function Brands() {
       const isMobileScreen = window.innerWidth <= 768;
       setIsMobile(isMobileScreen);
       setItemsToShow(isMobileScreen ? brandImgs.length : brandImgs.length * 2);
+      setIsOpen(false);
     };
 
     handleResize();
