@@ -1,6 +1,6 @@
 import "./Header.css";
 import React, { useState, useEffect } from "react";
-import logo from "../../images/icon-logo.png";
+import logo from "../../images/icon-logo.webp";
 import catalog from "../../images/icon-catalog.svg";
 import catalogMob from "../../images/icon-catalog-mob.svg";
 import iconCloseBlue from "../../images/icon-close-blue.svg";

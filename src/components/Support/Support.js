@@ -1,6 +1,6 @@
 import "./Support.css";
-import carRght from "../../images/sup-car-rght.png";
-import carLft from "../../images/sup-car-lft.png";
+import carRght from "../../images/sup-car-rght.webp";
+import carLft from "../../images/sup-car-lft.webp";
 import phone from "../../images/icon-phone.svg";
 import callCenter from "../../images/call-centr.png";
 

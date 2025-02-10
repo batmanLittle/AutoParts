@@ -6,7 +6,7 @@
 .promo__c {
   width: 100%;
   height: 78.9rem;
-  background-image: url(../../images/back-promo.png);
+  background-image: url(../../images/back-promo.webp);
   border-radius: 16px;
   background-position: center;
   background-size: cover;
@@ -198,7 +198,7 @@
   }
 
   .promo__c-info {
-    background-image: url(../../images/back-promo.png);
+    background-image: url(../../images/back-promo.webp);
     border-radius: 16px;
     background-position: center;
     background-size: cover;
